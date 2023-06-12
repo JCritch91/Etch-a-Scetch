@@ -1,0 +1,43 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+    .header-container{
+        border: 1px black solid;
+        display:flex;
+        justify-content: center;
+    }
+
+    .page-container{
+        border: 1px black solid;
+        display:flex;
+        justify-content: center;
+        gap:20px;
+    }
+
+        .grid-controls{
+            border: 1px black solid;
+            display:flex;
+            align-items: center;
+        }
+
+        #grid-container{
+            border: 1px black solid;
+            margin:0px;
+            display:flex;
+            width: 500px;
+            height: 500px;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+            .grid-box:hover{
+            }
+    
+    .footer-container{
+            border: 1px black solid;
+            justify-content: center;
+    }
+
+
